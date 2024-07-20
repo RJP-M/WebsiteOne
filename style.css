@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.inc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height. 10vh;
+    margin: 0:
+    padding: 0;
+}
+
+#warning1 {
+    margin-left: 0vh;
+    flex-shrink: 0;
+    width: 3vh;
+    height: auto;
+    padding: 1vh;
+}
+
+#increase {
+    display: flex;
+    padding-top: 0vh;
+    margin-top: 0vh;
+    height: 5vh;
+    text-align: center;
+    font-size: 3vh;
+    font-size: 1000;
+    background-color: black;
+}
+
+#increase h6 {
+    color: white;
+    margin-top: 1.3vh;
+}
+
+#increase a {
+    color: lightgreen;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    background-color: white;
+    height: 160px;
+}
+
+#logo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 20vh;
+    margin-left: 30px;
+}
+
+#head p {
+    display: none;
+    color: black;
+    font-weight: bold;
+    font-size: 5vh;
+    padding-left: 4vh;
+    text-align: left;
+    flex-grow: 1;
+    font-family: "Oswald", sans-serif;
+
+}
+
+#background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 77vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.6;
+    background-color: black;
+}
+
+#landing {
+    display: flex;
+    background-color: white;
+    font-size: 3vh;
+    color: black;
+    text-align: center;
+    position: absolute;
+    padding: 0px 60px;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-family: "Oswald", sans-serif;
+}
+
+#landing h1 {
+    font-family: "Oswald";
+}
+
+#footer {
+    bottom: 0;
+    font-size: 2vh;
+    font-weight: 1000;
+    width: 100%;
+    text-align: center;
+}
+
+#image {
+    height: 77vh;
+}
+
+#purchase1 {
+    font-size: 3vh;
+    height: 40vh;
+    width: 70vh;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: white;
+    text-align: center;
+}
+
+#purchase2{
+    font-size: 3vh;
+    height: 40vh;
+    width: 70vh;
+    padding: 20px 20px;
+    margin: 80px 20px;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: white;
+    text-align: center;
+}
+
+#purchase1 a {
+    font-size: 2vh;
+}
+
+#purchase2 a {
+    font-size: 2vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5vh;
+}
