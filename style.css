@@ -4,6 +4,10 @@ body {
     background-color: black;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 * {
     font-family: "Oswald;"
 }
@@ -127,22 +131,33 @@ header {
 }
 
 #footer {
-    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 2vh;
     font-weight: 1000;
     width: 100%;
-    text-align: center;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-top: solid;
+    border-color: white;
 }
 
 #image {
     height: 77vh;
 }
 
+.container {
+    display: flex;
+}
+
 #purchase1 {
     font-size: 3vh;
-    height: 40vh;
+    height: 60vh;
     width: 70vh;
-    padding: 5vh 10vh;
+    padding: 5vh 13vh;
     text-align: left;
 }
 
@@ -157,10 +172,15 @@ header {
     font-family: "Oswald";
 }
 
-
-.container {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    column-gap: 5vh;
+#andrewpic {
+    padding-left: 40vh;
 }
+
+img[src*="andrew"] {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 40vh;
+    height: auto;
+    margin-top: 9vh;
+    }
