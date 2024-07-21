@@ -12,6 +12,10 @@ body::-webkit-scrollbar {
     font-family: "Oswald;"
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -154,6 +158,7 @@ header {
 }
 
 #purchase1 {
+
     font-size: 3vh;
     height: 60vh;
     width: 70vh;
@@ -162,11 +167,15 @@ header {
 }
 
 #purchase1 h2 {
+    display: flex;
     color: orange;
-    font-family: "Oswald";}
+    font-family: "Oswald";
+    text-decoration: underline;
+    }
 
 
 #purchase1 a {
+    display: flex;
     font-size: 3vh;
     color: orange;
     font-family: "Oswald";
