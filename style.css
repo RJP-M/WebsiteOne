@@ -4,6 +4,14 @@ body {
     background-color: black;
 }
 
+* {
+    font-family: "Oswald;"
+}
+
+a {
+    text-decoration: none;
+}
+
 .inc {
     display: flex;
     justify-content: center;
@@ -12,6 +20,7 @@ body {
     height. 10vh;
     margin: 0:
     padding: 0;
+    background-color: black;
 }
 
 #warning1 {
@@ -20,6 +29,7 @@ body {
     width: 3vh;
     height: auto;
     padding: 1vh;
+    display: none;
 }
 
 #increase {
@@ -29,19 +39,23 @@ body {
     height: 5vh;
     text-align: center;
     font-size: 3vh;
-    font-size: 1000;
     background-color: black;
 }
 
-#increase h6 {
-    color: white;
-    margin-top: 1.3vh;
+
+#increase p {
+    display: flex;
+    font-size: 2.5vh;
+    margin-top: 0.6vh;
+    color: orange;
+    height: 1vh;
+    font-family: "Oswald";
 }
 
-#increase a {
-    color: lightgreen;
+#increase strong {
+    margin-top: 0.6vh;
+    margin-left: 1vh;
 }
-
 
 header {
     position: sticky;
@@ -55,7 +69,7 @@ header {
     justify-content: center;
     padding: 0px;
     background-color: white;
-    height: 160px;
+    height: 10vh;
 }
 
 #logo {
@@ -105,6 +119,11 @@ header {
 
 #landing h1 {
     font-family: "Oswald";
+    color: black;
+}
+
+#landing h1:hover {
+    color: orange;
 }
 
 #footer {
@@ -123,41 +142,25 @@ header {
     font-size: 3vh;
     height: 40vh;
     width: 70vh;
-    padding: 20px 20px;
-    margin: 20px 20px;
-    background-color: white;
-    border: 5px;
-    border-style: solid;
-    border-radius: 50px;
-    border-color: white;
-    text-align: center;
+    padding: 5vh 10vh;
+    text-align: left;
 }
 
-#purchase2{
-    font-size: 3vh;
-    height: 40vh;
-    width: 70vh;
-    padding: 20px 20px;
-    margin: 80px 20px;
-    background-color: white;
-    border: 5px;
-    border-style: solid;
-    border-radius: 50px;
-    border-color: white;
-    text-align: center;
-}
+#purchase1 h2 {
+    color: orange;
+    font-family: "Oswald";}
+
 
 #purchase1 a {
-    font-size: 2vh;
+    font-size: 3vh;
+    color: orange;
+    font-family: "Oswald";
 }
 
-#purchase2 a {
-    font-size: 2vh;
-}
 
 .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     column-gap: 5vh;
 }
